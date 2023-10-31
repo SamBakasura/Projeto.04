@@ -1,7 +1,6 @@
 .form1{
-    border-bottom: none;
-    width: 15%;
-    /* background-color: red; */
+    height: 120px;
+    width: 510px;
 }
 .form1 ul{
     height: 120px;
@@ -12,7 +11,7 @@
 }
 .form1 a{
     font-size: 20px;
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px dotted aqua;
     color: aliceblue;
 }
 .form1 a:hover{
@@ -31,7 +30,7 @@
     /* background-color: yellow; */
 }
 .form2 p{
-    width: 100px;
+    width: 200px;
     font-size: 30px;
     color: aliceblue;
 }
@@ -49,7 +48,7 @@
 } 
 .form3 p{
     font-size: 25px;
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px dotted aqua;
     color: aliceblue;
     text-decoration:underline;
 }
@@ -65,24 +64,69 @@
 .form4{
     display: flex;
     flex-grow: 1;
-    border: 1px solid;
+    border: 1px dotted;
     border-top: none;
 }
 .form5{
     height: 100%;
     width: 15%;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
+    border-left: 1px dotted aqua;
+    border-bottom: 1px dotted aqua;
 }
 .form6{
     flex-grow: 1;
-    border-bottom: 1px solid white
+    border-bottom: 1px dotted aqua;
 }
 .form7{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    height: 500px;
+    width: 300px;
+    border: 1px dotted aliceblue;
+}
+.form8{
     height: 100%;
     width: 15%;
-    border-right:1px solid white;
-    border-left: none;
-    border-top: none;
-    border-bottom: 1px solid lightgreen;
+    border-right: 1px dotted aqua;
+    border-bottom: 1px dotted aqua;
+}
+.form9{
+    position: absolute;
+    top: 41%;
+    left: 30%;
+    border: 1px dotted red;
+    width: 250px;
+    height: 100px;
+}
+.form10{
+    position: absolute;
+    top: 61%;
+    left: 30%;
+    border: 1px dotted red;
+    width: 250px;
+    height: 100px;
+}
+.form11{
+    position: absolute;
+    top: 81%;
+    left: 30%;
+    border: 1px dotted red;
+    width: 250px;
+    height: 100px;
+}
+.form9 p{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.form10 p{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.form11 p{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
 }
